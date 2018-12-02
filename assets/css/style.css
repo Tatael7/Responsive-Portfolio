@@ -144,8 +144,11 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     footer {
-        position: absolute;
+        position: static;
     }
+}
+@media only screen and (max-width :768px) {
+    
 }
